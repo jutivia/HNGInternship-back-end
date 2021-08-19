@@ -16,7 +16,14 @@ app.post('/post_question', async(req,res)=>{
 
 })
 
-let port= 5000
+let port= process.env.PORT || 5000
+
+
+
+if(process.env.NODE_ENV==='production'){
+app.use(express.static('resume webApp/build'))
+}
+
 const start= async ()=>{
 try {
 await connectDb(process.env.CODE)
@@ -25,5 +32,5 @@ app.listen(port, ()=>console.log(`server running on port ${port}`))
     console.log(error)
 }
 }
-start();
 
+start();

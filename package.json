@@ -5,7 +5,11 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+     "build":"cd resume webApp && npm run build" ,
+  "install-client":"cd resume webApp && npm install",
+  "heroku-postbuild":"npm run install-client && npm run build",
+    "start": "node  server.js",
+   
   },
   "author": "Olajumoke Boladale-lawal",
   "license": "ISC",
