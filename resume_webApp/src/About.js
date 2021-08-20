@@ -33,21 +33,21 @@ const About = () => {
                   <div className="works" id="mobile">
                      <a href='https://internship.zuri.team'><img src='https://internship.zuri.team/static/media/logo.36d2d48a.svg'   style={{height:'12%', color:'white', fontSize:'12px'}} alt=''/></a>
                       <h3 style={{padding:'5px 10px', color:'white', fontSize:'14px'}}>Developer Intern</h3>
-                      <p style={{color:'white', fontSize:'12px'}}>August 2021- current date</p><br/>
+                      <h3 style={{color:'white', fontSize:'12px'}}>August 2021- current date</h3><br/>
                       <p><ul>
-                       <li> -I build and complete tasks given by the co-ordinators </li>
-                      <li>-I get to work in groups/teams of likeminded developers and share knowledge with them </li>
+                       <li> - I build and complete tasks given by the co-ordinators </li>
+                      <li>- I get to work in groups/teams of likeminded developers and share knowledge with them </li>
                       </ul></p>
                       
                       </div>
                   <div className="works" id="web"><br/>
                     <img src='https://flapafrica.net/files/uploads/2020/01/flapper-scaled.png' style={{height:'15%', color:'white', fontSize:'12px'}}/>
                     <h3 style={{padding:'5px 10px', color:'grey', fontSize:'14px' }}>Digital Marketer| CRM</h3>
-                    <p >August 2021- Current Date</p><br/>
+                    <h3 >August 2021- Current Date</h3><br/>
                    <p> <ul> 
-                      <li>-I created engaging marketing contents for the social media pages which in turn increased the company's social media followers by a margin of 40%</li>
-                    <li>-I maintained the product uploads to the company's website backend using wordpress</li>
-                    <li>-I ran digital adverts for the company, which covered over 70% of the company's sales for the month via emails and social media platforms</li>
+                      <li>- I created engaging marketing contents for the social media pages which in turn increased the company's social media followers by a margin of 40%</li>
+                    <li>- I maintained the product uploads to the company's website backend using wordpress</li>
+                    <li>- I ran digital adverts for the company, which covered over 70% of the company's sales for the month via emails and social media platforms</li>
                     </ul>
                     </p>
 
